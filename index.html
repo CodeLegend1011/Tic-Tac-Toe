@@ -1,11 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <!-- Title -->
+    <header>
+        <h1 id="title">Tic-Tac-Toe</h1>
+    </header>
+
+    <!-- Game Container -->
+    <div id="game">
+
+        <!-- Row A -->
+        <div class="ace">
+            <div id="one">
+                <button type="button" id="a" onclick="handleClick('a')"></button>
+            </div>
+            <div id="two">
+                <button type="button" id="b" onclick="handleClick('b')"></button>
+            </div>
+            <div id="three">
+                <button type="button" id="c" onclick="handleClick('c')"></button>
+            </div>
+        </div>
+        <div id="lineA"></div>
+        <div class="bace">
+
+            <!-- Row B -->
+            <div id="four">
+                <button type="button" id="d" onclick="handleClick('d')"></button>
+            </div>
+            <div id="five">
+                <button type="button" id="e" onclick="handleClick('e')"></button>
+            </div>
+            <div id="six">
+                <button type="button" id="f" onclick="handleClick('f')"></button>
+            </div>
+        </div>
+        <div id="lineb"></div>
+        <div class="trace">
+
+            <!-- Row C -->
+            <div id="seven">
+                <button type="button" id="g" onclick="handleClick('g')"></button>
+            </div>
+            <div id="eight">
+                <button type="button" id="h" onclick="handleClick('h')"></button>
+            </div>
+            <div id="nine">
+                <button type="button" id="i" onclick="handleClick('i')"></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Vertical Lines -->
+    <div id="vA"></div>
+    <div id="vB"></div>
+
+    <!-- Game Points -->
+    <div id="points">
+        <div id="p">Points:</div>
+        <div class="player" id="you">
+            <h4>Player1 (X)</h4>
+            <div id="playerScore">0</div>
+        </div>
+        <div class="player" id="Tie">
+            <h4>Tie</h4>
+            <div id="tieScore">0</div>
+        </div>
+        <div class="player" id="Computer">
+            <h4>Player2 (O)</h4>
+            <div id="player2">0</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>

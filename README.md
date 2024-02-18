@@ -23,7 +23,8 @@ We welcome your feedback and contributions. Feel free to open an issue or submit
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Project](https://github.com/CodeLegend1011/Tic-Tac-Toe/assets/142136719/09824d91-04f9-458f-81f6-93c04480633a)
+
 
 
 Enjoy playing Tic-Tac-Toe!
